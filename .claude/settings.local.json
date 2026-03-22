@@ -18,7 +18,12 @@
       "Bash(wc -l /Users/gabrielpereiralimacesardeoliveira/Desktop/newsktop/Anthropic/uigen/src/app/**/*.ts /Users/gabrielpereiralimacesardeoliveira/Desktop/newsktop/Anthropic/uigen/src/app/**/*.tsx /Users/gabrielpereiralimacesardeoliveira/Desktop/newsktop/Anthropic/uigen/src/middleware.ts /Users/gabrielpereiralimacesardeoliveira/Desktop/newsktop/Anthropic/uigen/src/hooks/*.ts)",
       "mcp__playwright",
       "Bash(git add:*)",
-      "Bash(git init:*)"
+      "Bash(git init:*)",
+      "Bash(git commit:*)",
+      "Bash(git branch:*)",
+      "Bash(git remote:*)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)"
     ]
   },
   "enabledMcpjsonServers": [
