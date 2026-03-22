@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /Users/gabrielpereiralimacesardeoliveira/Desktop/newsktop/Anthropic/uigen -maxdepth 2 -type f -name package.json -o -name tsconfig.json -o -name next.config.* -o -name tailwind.config.* -o -name CLAUDE.md -o -name .cursorrules -o -name README.md -o -name turbo.json)",
+      "Bash(xargs ls:*)",
+      "Bash(find /Users/gabrielpereiralimacesardeoliveira/Desktop/newsktop/Anthropic/uigen/node_modules/ai -name *.d.ts)",
+      "Bash(grep -r \"interface ToolInvocation\\\\|type ToolInvocation\\\\|interface Message\" /Users/gabrielpereiralimacesardeoliveira/Desktop/newsktop/Anthropic/uigen/node_modules/ai --include=*.d.ts)",
+      "Bash(find /Users/gabrielpereiralimacesardeoliveira/Desktop/newsktop/Anthropic/uigen/node_modules -name *ui-utils* -type d)",
+      "Bash(find /Users/gabrielpereiralimacesardeoliveira/Desktop/newsktop/Anthropic/uigen/node_modules/@ai-sdk/ui-utils -name *.d.ts)",
+      "Bash(npx vitest:*)",
+      "Bash(npm run:*)",
+      "Bash(npm audit:*)",
+      "Bash(npm ls:*)",
+      "Bash(node -e \"const p = require\\(''./package.json''\\); console.log\\(''next:'', p.dependencies?.next || p.devDependencies?.next\\); console.log\\(''ai:'', p.dependencies?.ai || p.devDependencies?.ai\\)\")",
+      "Bash(npm install:*)",
+      "Bash(wc -l /Users/gabrielpereiralimacesardeoliveira/Desktop/newsktop/Anthropic/uigen/src/lib/*.ts /Users/gabrielpereiralimacesardeoliveira/Desktop/newsktop/Anthropic/uigen/src/lib/**/*.ts /Users/gabrielpereiralimacesardeoliveira/Desktop/newsktop/Anthropic/uigen/src/lib/**/*.tsx)",
+      "Bash(wc -l /Users/gabrielpereiralimacesardeoliveira/Desktop/newsktop/Anthropic/uigen/src/components/**/*.tsx /Users/gabrielpereiralimacesardeoliveira/Desktop/newsktop/Anthropic/uigen/src/actions/*.ts)",
+      "Bash(wc -l /Users/gabrielpereiralimacesardeoliveira/Desktop/newsktop/Anthropic/uigen/src/app/**/*.ts /Users/gabrielpereiralimacesardeoliveira/Desktop/newsktop/Anthropic/uigen/src/app/**/*.tsx /Users/gabrielpereiralimacesardeoliveira/Desktop/newsktop/Anthropic/uigen/src/middleware.ts /Users/gabrielpereiralimacesardeoliveira/Desktop/newsktop/Anthropic/uigen/src/hooks/*.ts)",
+      "mcp__playwright",
+      "Bash(git add:*)",
+      "Bash(git init:*)"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "playwright"
+  ]
+}
